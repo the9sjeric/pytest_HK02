@@ -1,0 +1,141 @@
+{
+  "uid" : "3e9a32794cd6ece5",
+  "name" : "test_div[Float]",
+  "fullName" : "test_calc_shenjian.TestCalc#test_div",
+  "historyId" : "7b08c77165804c78dc33a57cace3199f",
+  "time" : {
+    "start" : 1609298012198,
+    "stop" : 1609298012198,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testdiv",
+    "time" : {
+      "start" : 1609298012197,
+      "stop" : 1609298012197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestCalc",
+    "time" : {
+      "start" : 1609298012008,
+      "stop" : 1609298012008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1f4c931b8a54b67",
+      "name" : "stdout",
+      "source" : "e1f4c931b8a54b67.txt",
+      "type" : "text/plain",
+      "size" : 70
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "testdiv::0",
+    "time" : {
+      "start" : 1609298012200,
+      "stop" : 1609298012200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestCalc::0",
+    "time" : {
+      "start" : 1609298012211,
+      "stop" : 1609298012211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_shenjian"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "HZCL2002"
+  }, {
+    "name" : "thread",
+    "value" : "12744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_shenjian"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "8.8"
+  }, {
+    "name" : "b",
+    "value" : "1.6"
+  }, {
+    "name" : "expected",
+    "value" : "5.5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "3e9a32794cd6ece5.json",
+  "parameterValues" : [ "8.8", "1.6", "5.5" ]
+}
